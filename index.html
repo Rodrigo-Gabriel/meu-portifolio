@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <script src="./efeito-de-particula/particles.min.js"></script>
+    <script src="./efeito-de-particula/particlesjs-config.json"></script>
+
+    <title>Portifólio | Rodrigo</title>
+</head>
+<body>
+
+    <div id="particles-js"></div>
+
+    <header>
+        <img src="./img/foto_perfil.png" alt="foto_perfil" class="foto_perfil" width="250px" height="320px">
+        <h1 class="titulo-logo">Rodrigo Gabriel Belchior Pinheiro</h1>
+        <h3> < / Desenvolvedor Full-Stack > </h3>
+        <nav class="contacts">
+            <ul>
+                <a href="https://github.com/Rodrigo-Gabriel" rel="noopener noreferrer"><li> <img src="img/icons8-github.svg" alt="githubImg"></li></a>
+                <a href="https://mail.google.com/mail/u/0/?pli=1#inbox" rel="noopener noreferrer"><li> <img src="img/icons8-gmail.svg" alt="gmailImg"></li></a>
+                <li> <img src="img/icons8-instagram.svg" alt="instaImg"></li>
+                <li> <img src="img/icons8-linkedin.svg" alt="linkedinImg"></li>
+                <li> <img src="img/icons8-whatsapp.svg" alt="whatsappImg"></li>
+            </ul>
+        </nav>
+
+        <nav class="info">
+            <ul>
+                <li> <img src="img/icons8-buzz-lightyear.svg" alt="avatar"> <a href="#sobre-mim">Sobre mim</a> </li>
+                <li> <img src="img/icons8-cérebro-100 (1).png" alt="avatar"> <a href="#Soft-skills-title">Minhas Soft Skills</a> </li>
+                <li> <img src="img/icons8-engrenagem-100.png" alt="avatar"> <a href="">Minhas Hard Skills</a> </li>
+                <li> <img src="img/icons8-programação-100.png" alt="avatar"> <a href="">Meus Servicos Contrataveis</a> </li>
+                <li> <img src="img/icons8-janela-do-navegador-100.png" alt="avatar"> <a href="">Meus Projetos</a> </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="sobre-mim">
+            <h1 class="sobre-mim-title">Sobre Mim</h1>
+            <p class="text">
+                Meu nome é Rodrigo Gabriel, atualmente estou no terceiro ano do ensino superior e atuo como desenvolvedor web Front-end.
+                Tenho experiência no desenvolvimento de páginas e sistemas web responsivos, com foco em layouts atraentes e funcionais.
+                Ao longo de aproximadamente dois anos, dediquei-me a estudos contínuos e à realização de projetos pessoais, consolidando uma
+                base sólida em desenvolvimento e reforçando meu compromisso com a organização e a qualidade.
+                Atualmente, estou profundamente engajado no aprendizado de tecnologias baseadas em JavaScript, com o objetivo de aprimorar minhas
+                habilidades e contribuir para projetos inovadores. Busco oportunidades para iniciar minha trajetória profissional como
+                desenvolvedor, e, no futuro, almejo expandir minhas competências para me tornar um desenvolvedor Full Stack.
+            </p>            
+        </section>
+
+        <h1 class="title-softskills" id="Soft-skills-title">Soft Skills</h1>
+        <section id="Soft-skills">
+            <div class="container-softskills">
+                <h1 class="title">Comunicação eficaz</h1>
+                <p class="text">Capacidade de transmitir uma mensagem de maneira clara, objetiva e compreensível, garantindo que o destinatário entenda exatamente o que foi dito.</p>
+            </div>
+            <div class="container-softskills">
+                <h1 class="title">Trabalho em equipe</h1>
+                <p class="text">Habilidade de trabalhar em equipe, colaborando com os demais.</p>
+            </div>
+            <div class="container-softskills">
+                <h1 class="title">Adaptabilidade</h1>
+                <p class="text">Capacidade de se adaptar facilmente em quaisquer ambientes.</p>
+            </div>
+            <div class="container-softskills">
+                <h1 class="title">Resolução de problemas</h1>
+                <p class="text">Capacidade de identificar, analisar e resolver problemas de maneira eficaz e agil.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2024 Rodrigo Gabriel Belchior Pinheiro</p>
+    </footer>
+<script>
+                particlesJS(
+                    {
+                        "particles": {
+                            "number": {
+                            "value": 80,
+                            "density": {
+                                "enable": true,
+                                "value_area": 800
+                            }
+                            },
+                            "color": {
+                            "value": "#0000ff"
+                            },
+                            "shape": {
+                            "type": "circle",
+                            "stroke": {
+                                "width": 0,
+                                "color": "#000000"
+                            },
+                            "polygon": {
+                                "nb_sides": 5
+                            },
+                            "image": {
+                                "src": "img/github.svg",
+                                "width": 100,
+                                "height": 100
+                            }
+                            },
+                            "opacity": {
+                            "value": 0.5,
+                            "random": false,
+                            "anim": {
+                                "enable": false,
+                                "speed": 1,
+                                "opacity_min": 0.1,
+                                "sync": false
+                            }
+                            },
+                            "size": {
+                            "value": 3,
+                            "random": true,
+                            "anim": {
+                                "enable": false,
+                                "speed": 40,
+                                "size_min": 0.1,
+                                "sync": false
+                            }
+                            },
+                            "line_linked": {
+                            "enable": true,
+                            "distance": 150,
+                            "color": "#00077d",
+                            "opacity": 0.4,
+                            "width": 1
+                            },
+                            "move": {
+                            "enable": true,
+                            "speed": 6,
+                            "direction": "none",
+                            "random": false,
+                            "straight": false,
+                            "out_mode": "out",
+                            "bounce": false,
+                            "attract": {
+                                "enable": false,
+                                "rotateX": 600,
+                                "rotateY": 1200
+                            }
+                            }
+                        },
+                        "interactivity": {
+                            "detect_on": "canvas",
+                            "events": {
+                            "onhover": {
+                                "enable": true,
+                                "mode": "repulse"
+                            },
+                            "onclick": {
+                                "enable": true,
+                                "mode": "push"
+                            },
+                            "resize": true
+                            },
+                            "modes": {
+                            "grab": {
+                                "distance": 400,
+                                "line_linked": {
+                                "opacity": 1
+                                }
+                            },
+                            "bubble": {
+                                "distance": 400,
+                                "size": 40,
+                                "duration": 2,
+                                "opacity": 8,
+                                "speed": 3
+                            },
+                            "repulse": {
+                                "distance": 200,
+                                "duration": 0.4
+                            },
+                            "push": {
+                                "particles_nb": 4
+                            },
+                            "remove": {
+                                "particles_nb": 2
+                            }
+                            }
+                        },
+                        "retina_detect": true
+        }
+                )
+</script>
+</body>
+</html>
