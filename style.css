@@ -47,7 +47,6 @@ body{
     transition: 0.3s;
 }
 .contacts img:hover{
-    width: 37.5px;
     box-shadow: 0px 4px 1px blue;
     cursor: pointer;
 }
@@ -87,7 +86,8 @@ main {
 }
 
 #sobre-mim {
-    margin: 80px;
+    margin: 20px;
+    padding: 50px;
 }
 
 main .sobre-mim-title {
@@ -100,9 +100,10 @@ main .text {
     font-family: monospace;
     text-align: justify;
     font-size: 15px;
+    color: rgb(178, 178, 178);
 }
 
-#Soft-skills {
+#skills {
     display: grid;
     grid-template-columns: repeat(2, 1fr); /* Cria 2 colunas de largura igual */
     margin: auto;
@@ -110,17 +111,18 @@ main .text {
     gap: 30px;
 }
 
-.title-softskills {
+.title-skills {
     text-align: center;
-    margin-top: 150px;
+    padding: 9px;
+    margin-top: 35px;
     margin-bottom: 50px;
 }
 
-.container-softskills {
+.container-skills {
     display: flex;
     flex-direction: column;
     border: 1px solid #fff;
-    border-radius: 15px;
+    border-radius: 4px;
     padding: 15px;
 
     justify-content: space-around;
@@ -128,17 +130,38 @@ main .text {
     width: 220px;
     height: 180px;
 }
-.container-softskills:hover {
+.container-skills:hover {
     border: 1px solid #0024CB;
+    cursor: default;
 }
 
-.container-softskills .title {
+.container-skills .title {
     display: flex;
     flex-direction: row;
     font-size: 25px;
     margin-bottom: 15px;
 }
 
+/* HARD SKILLS*/
+.container-HardSkills {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #fff;
+    border-radius: 4px;
+    padding: 15px;
+    width: 220px;
+    height: 180px;
+}
+.container-HardSkills:hover {
+    border: 1px solid #0024CB;
+}
+
+.title-Hardskills {
+    padding: 5px;
+}
+/* HARD SKILLS*/
 
 
 
@@ -157,5 +180,7 @@ footer{
     color: #fff;
 }
 footer p{
+    margin-right: 20px;
+    margin-left: 55px;
     margin-top: 5px;
 }
