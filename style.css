@@ -3,10 +3,6 @@
     padding: 0%;
 }
 
-a {
-    
-}
-
 
 #particles-js{
     background: black;
@@ -185,15 +181,12 @@ main .text {
     scale: 1.05;
     border-radius: 10px;
 }
-.description-projects {
-    text-shadow: 0px 1px 50px white;
-}
 .link-projects{
     text-decoration: none;
     color: white;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Courier New', Courier, monospace;
     font-size: small;
-    text-shadow: 0px 0px 5px white;
+    text-shadow: 0px 0px 10px white;
     transition: 0.3s;
 }
 .link-projects:hover {
