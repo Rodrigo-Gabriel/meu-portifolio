@@ -3,6 +3,11 @@
     padding: 0%;
 }
 
+a {
+    
+}
+
+
 #particles-js{
     background: black;
     position: fixed;
@@ -146,6 +151,13 @@ main .text {
     margin-bottom: 20px;
 }
 
+.container-skills .title {
+    display: flex;
+    flex-direction: row;
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+
 .container-skills {
     display: flex;
     flex-direction: column;
@@ -165,11 +177,27 @@ main .text {
     cursor: default;
 }
 
-.container-skills .title {
-    display: flex;
-    flex-direction: row;
-    font-size: 25px;
-    margin-bottom: 15px;
+.img-projetos {
+    width: auto;
+    transition: 0.3s;
+}
+.img-projetos:hover {
+    scale: 1.05;
+    border-radius: 10px;
+}
+.description-projects {
+    text-shadow: 0px 1px 50px white;
+}
+.link-projects{
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    text-shadow: 0px 0px 5px white;
+    transition: 0.3s;
+}
+.link-projects:hover {
+    text-shadow: 0px 0px 15px white;
 }
 
 /* HARD SKILLS*/
