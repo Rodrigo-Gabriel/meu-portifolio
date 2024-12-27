@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
 
     <script src="./efeito-de-particula/particles.min.js"></script>
     <script src="./efeito-de-particula/particlesjs-config.json"></script>
@@ -15,16 +16,16 @@
     <div id="particles-js"></div>
 
     <header id="cabecalho">
-        <img src="./img/foto_perfil.png" alt="foto_perfil" class="foto_perfil" width="250px" height="320px">
+        <img src="./img/foto-perfil.png" alt="foto_perfil" class="foto_perfil" width="250px" height="320px">
         <h1 class="titulo-logo">Rodrigo Gabriel Belchior Pinheiro</h1>
-        <h3> < / Desenvolvedor Front-end / Free Lancer > </h3>
+        <h3 class="subtitulo-logo"> < / Desenvolvedor Front-end / Free Lancer > </h3>
         <nav class="contacts">
             <ul>
-                <a href="https://github.com/Rodrigo-Gabriel" rel="noopener noreferrer"><li> <img src="img/icons8-github.svg" alt="githubImg"></li></a>
-                <a href="https://mail.google.com/mail/u/0/?pli=1#inbox" rel="noopener noreferrer"><li> <img src="img/icons8-gmail.svg" alt="gmailImg"></li></a>
-                <li> <img src="img/icons8-instagram.svg" alt="instaImg"></li>
-                <li> <img src="img/icons8-linkedin.svg" alt="linkedinImg"></li>
-                <li> <img src="img/icons8-whatsapp.svg" alt="whatsappImg"></li>
+                <a href="https://github.com/Rodrigo-Gabriel" rel="noopener noreferrer"><li> <img id="img-contacts" src="img/icons8-github.svg" alt="githubImg"> </li> </a>
+                <a href="https://mail.google.com/mail/u/0/?pli=1#inbox" rel="noopener noreferrer"><li> <img id="img-contacts" src="img/icons8-gmail.svg" alt="gmailImg"> </li> </a>
+                <a href="https://www.instagram.com/rodrigogabriel_belchior/"><li> <img id="img-contacts" src="img/icons8-instagram.svg" alt="instaImg"> </li> </a>
+                <a href=""><li> <img src="img/icons8-linkedin.svg" alt="linkedinImg"> </li> </a>
+                <a href=""><li> <img src="img/icons8-whatsapp.svg" alt="whatsappImg"> </li> </a>
             </ul>
         </nav>
 
@@ -34,7 +35,7 @@
                 <li> <img src="img/icons8-cérebro-100 (1).png" alt="avatar"> <a href="#Soft-skills-title">Minhas Soft Skills</a> </li>
                 <li> <img src="img/icons8-engrenagem-100.png" alt="avatar"> <a href="#Hard-skills-title">Minhas Hard Skills</a> </li>
                 <li> <img src="img/icons8-programação-100.png" alt="avatar"> <a href="#Servicos-contrataveis">Meus Servicos Contrataveis</a> </li>
-                <li> <img src="img/icons8-janela-do-navegador-100.png" alt="avatar"> <a href="">Meus Projetos</a> </li>
+                <li> <img src="img/icons8-janela-do-navegador-100.png" alt="avatar"> <a href="#projetos">Meus Projetos</a> </li>
             </ul>
         </nav>
     </header>
@@ -43,7 +44,7 @@
         <section id="sobre-mim">
             <h1 class="sobre-mim-title">Sobre Mim</h1>
             <p class="text">
-                Meu nome é Rodrigo Gabriel, atualmente estou no terceiro ano do ensino superior e atuo como desenvolvedor web Front-end.
+                Meu nome é Rodrigo Gabriel, atualmente estou cursando ADS(Analise e Desenvolvimento de sistemas) e atuo como desenvolvedor web Front-end.
                 Tenho experiência no desenvolvimento de páginas e sistemas web responsivos, com foco em layouts atraentes e funcionais.
                 Ao longo de aproximadamente dois anos, dediquei-me a estudos contínuos e à realização de projetos pessoais, consolidando uma
                 base sólida em desenvolvimento e reforçando meu compromisso com a organização e a qualidade.
@@ -106,6 +107,23 @@
             <div class="container-skills">
                 <h1 class="title">Otimização de SEO</h1>
                 <p class="text">Melhorar o ranqueamento nos mecanismos de busca, para que seu site seja encontrado mais facilmente.</p>
+            </div>
+            <div class="container-skills">
+                <h1 class="title">Otimização de sites</h1>
+                <p class="text">A otimização de um site consiste em diversas ações e estratégias visando elevar a qualidade da experiência dos visitantes, o tráfego, a acessibilidade e as taxas de conversão do site.</p>
+            </div>
+        </section>
+
+        <h1 class="title-skills" id="projetos">Meus Projetos</h1>
+        <section class="projetos" id="skills">
+            <div class="container-skills">
+                <img src="img/imagem-demonstracao (1).png" alt="igm-demonstracao">
+            </div>
+            <div class="container-skills">
+                <img src="img/imagem-demonstracao (2).png" alt="igm-demonstracao">
+            </div>
+            <div class="container-skills">
+                <img src="img/imagem-demonstracao (3).png" alt="igm-demonstracao">
             </div>
             <div class="container-skills">
                 <h1 class="title">Otimização de sites</h1>
