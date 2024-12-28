@@ -55,14 +55,20 @@
             text-align: center;
             padding: 10px;
         }
+
+        .foto_perfil {
+            width: 120px;
+            height: 120px;
+            margin: 10px;
+        }
     
         .titulo-logo {
             margin-top: 20px;
             margin-bottom: 20px;
-            font-size: 18px;
+            font-size: 16px;
         }
         .subtitulo-logo {
-            font-size: 15px;
+            font-size: 14px;
         }
     
         a {
@@ -72,7 +78,7 @@
             width: 16.4px;
         }
         #img-contacts {
-            width: 35px;
+            width: 28px;
         }
     
         main {
@@ -94,6 +100,14 @@
             gap: 20px;
 
             margin-left: -15%;
+        }
+
+        .container-skills {
+            height: 220px;
+        }
+        .container-skills p{
+            margin-top: auto;
+            margin-bottom: auto;
         }
     }
 }
